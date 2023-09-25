@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="weather-body">
+        <div class="dashboard-links">
+            <span class="dashboard-links-span">
+                <img src="icons8-user-100.png">
+                <p id="dashboard">Dashboard</p>
+                <p id="map">Map</p>
+                <p id="location">Saved Location</p>
+            </span>
+            <span class="system">
+                <h5 id="system">System</h5>
+                <p>Setting</p>
+                <p>Logout account</p>
+            </span>
+        </div>
+
+        <div class="banner">
+            <form>
+                <div class="form">
+                    <span>
+                        <h3>August 2023</h3>
+                        <p id="Date">Thursday Aug 22,2023</p>
+                    </span>
+                    <span>
+                        <input type="text" placeholder="Search Location here">
+                    </span>
+                </div>
+                <div>
+                    <span class="overview">
+                        <h4>Todays Overview</h4>
+                        <a href="#">More Details</a>
+                    </span>
+                </div>
+            </form>
+
+
+
+            <div class="card-section">
+                <div class="container-1">
+                    <span>
+                        <p id="grid-details">Pressure</p>
+                        <h4 class="grid-temp" id="pressure-temp">800mb</h4>
+                    </span>
+                    <span class="pressure-icon">
+                        <img src="./icons8-thermometer-down.gif" height="50px">
+                    </span>
+                </div>
+
+                <div id="container-2">
+                    <span class="temp-details">
+                        <h4>Air Quality</h4>
+                        <h1 id="air-quality"></h1>
+                        <p id="air-direction"></p>
+                    </span>
+                    <span class="air-icon">
+                        <img src="./icons8-windy-weather.gif" height="50px">
+                    </span>
+                </div>
+            </div>
+
+            <div class="card-section-2">
+                <div class="grid-item-2">
+                    <span>
+                        <p id="grid-details">visibility</p>
+                        <h4 class="grid-temp" id="visibility-temp">4.3 </h4>
+                    </span>
+                    <span class="visibility-icon">
+                        <img src="./icons8-visibility.gif" height="40px" a>
+                    </span>
+                </div>
+
+                <div class="grid-item-3">
+                    <span>
+                        <p id="grid-details">Humidity</p>
+                        <h4 class="grid-temp" id="Humidity-temp"></h4>
+                    </span>
+                    <span class="humidity-icon">
+                        <img src="./icons8-humidity.gif" height="50px">
+                    </span>
+                </div>
+            </div>
+            <div class="feels-like-container">
+                <div class="grid-item-4">
+                    <span>
+                        <p id="grid-details">Feels Like</p>
+                        <h4 class="grid-temp" id="Feels-like"></h4>
+                    </span>
+                    <span class="humidity-icon">
+                        <img src="./icons8-cloud-favorites.gif" height="50px">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="temperature">
+            <div class="container-fluid">
+                <span class="city-name">
+                    <h3 class="user-name" id="name">City Name</h3>
+                    <p id="local-time"></p>
+                </span>
+
+                <div class="container" id="container">
+                    <span class="weather-details">
+                        <img id="temp-icon" src="./icons8-user-100.png" height="70px">
+                    </span>
+                    <span class="temp-details">
+                        <h1 id="weather-temp"></h1>
+                        <p id="weather-description"></p>
+                    </span>
+                    <hr>
+
+                    <div class="Sunrise">
+                        <span>
+                            <h5>Sunrise</h5>
+                            <h4>4:20 AM</h4>
+                        </span>
+                        <span class="Sunrise-icon">
+                            <img src="./icons8-sun.gif" height="50px">
+                        </span>
+                    </div>
+
+                    <div class="Sunset">
+                        <span>
+                            <h5>Sunset</h5>
+                            <h4>5:50 PM</h4>
+                        </span>
+                        <span class="sunset-icon">
+                            <img src="./icons8-sunset.gif" height="50px">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
